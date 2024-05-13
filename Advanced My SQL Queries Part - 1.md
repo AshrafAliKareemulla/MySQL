@@ -8,8 +8,9 @@ Here is a list of 100+ advanced MySQL interview questions and providing detailed
 
 **Answer**:
 
-```The WHERE clause is processed before the SELECT clause, so at the time the WHERE clause is evaluated, the alias rankk doesn't yet exist.
-Nth Highest salary : 
+```
+The WHERE clause is processed before the SELECT clause, so at the time the WHERE clause is evaluated, the alias rankk doesn't yet exist.
+
 ```
 
 
