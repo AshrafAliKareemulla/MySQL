@@ -111,7 +111,7 @@ WHERE salary NOT IN (SELECT MAX(salary) FROM employee);
 **Answer**:
 
 ```sql
-ALTER TABLE table_name ADD INDEX(index_name, column_name);
+ALTER TABLE table_name ADD INDEX index_name(column_name);
 
 ```
 **12. Explain the `ACID` properties in a database.**
